@@ -1,3 +1,5 @@
+import java.util.jar.Attributes.Name;
+
 // class A {
 //     private int a;
 //     int b;
@@ -14,3 +16,11 @@
 //     }
 // }
 
+public class test {
+    private int regNumber;
+    private String name;
+    private int balance;
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+}
